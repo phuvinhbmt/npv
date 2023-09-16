@@ -1,0 +1,27 @@
+{
+  "name": "npv",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "cli to set up my own development environment",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "npv": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/phuvinhbmt/npv.git"
+  },
+  "author": "Vinh Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phuvinhbmt/npv/issues"
+  },
+  "homepage": "https://github.com/phuvinhbmt/npv#readme",
+  "dependencies": {
+    "boxen": "4.0",
+    "chalk": "2.4"
+  }
+}
